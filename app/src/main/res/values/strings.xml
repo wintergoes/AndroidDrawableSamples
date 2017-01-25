@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DrawableSamples</string>
+    <string name="round_rect_btn_activity_title">Rounded Rectangle Buttons</string>
+    <string name="bcoder_com">bcoder.com</string>
 </resources>

@@ -1,11 +1,42 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="shape_rectangle_bkg">
+        <item name="android:background">@drawable/shape_rectangle</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="shape_ring_bkg">
+        <item name="android:background">@drawable/shape_ring</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="round_rect_btn_bkg">
+        <item name="android:background">@drawable/round_rect_btn_selector</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="round_rect_oval_btn_bkg">
+        <item name="android:background">@drawable/round_rect_oval_btn_selector</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="leaf_oval_btn_bkg">
+        <item name="android:background">@drawable/leaf_btn_selector</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
 </resources>

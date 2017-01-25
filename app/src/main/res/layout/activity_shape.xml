@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bcoder.drawablesamples.ShapeActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="150dp">
+
+        <TextView
+            android:text="Rectangle"
+            android:layout_width="match_parent"
+            android:id="@+id/textView2"
+            style="@style/shape_rectangle_bkg"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:text="Ring"
+            android:layout_width="match_parent"
+            android:id="@+id/textView3"
+            style="@style/shape_ring_bkg"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+</LinearLayout>

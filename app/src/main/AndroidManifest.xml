@@ -15,6 +15,19 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ShapeActivity">
+        </activity>
+        <activity
+            android:name=".RoundRectBtnActivity"
+            android:label="@string/round_rect_btn_activity_title">
+        </activity>
+        <activity
+            android:name=".RoundRectOvalBtnActivity"
+            android:label="@string/bcoder_com">
+        </activity>
+        <activity android:name=".LeafBtnActivity"
+            android:label="@string/bcoder_com">
+        </activity>
     </application>
 
 </manifest>
