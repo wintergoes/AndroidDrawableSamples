@@ -20,6 +20,18 @@
         <item name="android:layout_margin">5dp</item>
     </style>
 
+    <style name="shape_oval_bkg">
+        <item name="android:background">@drawable/shape_oval</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="shape_line_bkg">
+        <item name="android:background">@drawable/shape_line</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
     <style name="round_rect_btn_bkg">
         <item name="android:background">@drawable/round_rect_btn_selector</item>
         <item name="android:layout_marginTop">10dp</item>
